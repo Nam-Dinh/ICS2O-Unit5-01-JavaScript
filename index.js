@@ -7,12 +7,12 @@ function numberguess() {
     guessednumber = document.getElementById("textbox").value;
     
     if (guessednumber < mynumber) {
-        alert ("This is not the number I'm thinking of.");
+        alert (guessednumber + " is not the number I'm thinking of. The number I'm thinking of is "+ mynumber);
     }
     if (guessednumber > mynumber) {
-        alert ("This is not the number I'm thinking of.");
+        alert (guessednumber + " is not the number I'm thinking of. The number I'm thinking of is "+ mynumber);
     }
     if (guessednumber == mynumber){
-         alert ("Congrats! This is the number I'm thinking of!!");
+         alert ("Congrats! " + guessednumber + " is the number I'm thinking of!!");
     }
 }
